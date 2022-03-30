@@ -63,7 +63,7 @@ $fontfamaly: "Roboto";
 
 //<Variables>===========================================================================================
 
-$maxWidthContainer: 1070px;
+$maxWidthContainer: 1100px;
 $maxWidth: 200px;
 //</Variables>==========================================================================================
 
@@ -76,8 +76,6 @@ body {
 	font-family: $fontfamaly;
 }
 
-.btn {}
-
 
 //</Zeroing and Common Parameters>===========================================================================
 
@@ -86,8 +84,6 @@ body {
 .wrapper {
 	min-height: 100vh;
 	overflow: hidden;
-	display: flex;
-	flex-direction: column;
 }
 
 //</Wrapper>=================================================================================================
@@ -96,6 +92,8 @@ body {
 
 .container {
 	max-width: $maxWidthContainer;
+	margin: 0 auto;
+	padding: 0 15px;
 }
 
 //</Main grid>===============================================================================================
@@ -113,66 +111,120 @@ body {
 
 //</Main block>==============================================================================================
 
-//<Page>=====================================================================================================
 
-.page {
-	margin: 50px 0px 0px 0px;
-
-	&__fullscreen {}
+.promo {
+	min-height: 800px;
+	background: url('../img/Header/BG.jpg') center center/cover no-repeat;
+	padding: 150px 0 135px 0;
 }
 
-//</Page>====================================================================================================
-
-//<Fullscreen>===============================================================================================
-
-.fullscreen {
-	position: relative;
-
-	&__top {}
-
-	&__container {}
-
-	&__body {}
-
-	&__title {}
-
-	&__subtitle {}
-
-	&__text {}
-
-	&__btn {}
-
-	&__image {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-	}
+.promo .promo_header {
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 60px;
+	line-height: 60px;
+	margin: 0;
+	text-align: center;
 }
 
-.top-fullscreen {
-
-	&__container {}
-
-	&__row {}
-
-	&__column {}
-
-	&__logo {}
-
-	&__official {}
-
-	&__call {}
-
-	&__phone {}
-
-	&__btn {}
+.promo .promo_subheader {
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 36px;
+	line-height: 36px;
+	margin: 0;
+	margin-top: 22px;
+	text-align: center;
 }
 
+.promo .promo_descr {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	margin-top: 23px;
+}
 
+.promo .promo_btn {
+	display: block;
+	margin: 118px auto 0 auto;
+	width: 259px;
+	height: 63px;
+	box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+	border: none;
+	border-radius: 4px;
+	background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
 
-//</Fullscreen>==============================================================================================
+.reasons {
+	padding: 71px 0 65px 0;
+}
+
+.label {
+	margin: 0 auto;
+	height: 24px;
+	width: 112px;
+	padding: 5px 12px;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 11px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.title {
+	margin-bottom: 0;
+	margin-top: 38px;
+	color: #222222;
+	font-size: 38px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.reasons .reasons_block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 35px;
+}
+
+.reasons .reasons_block .reasons_round {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 26px;
+	width: 113px;
+	height: 113px;
+	background-color: #1eacc7;
+	border-radius: 100%;
+}
+
+.reasons .reasons_block .reasons_descr {
+	width: 343px;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_subtitle {
+	line-height: 21px;
+	color: #1eacc7;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_text {
+	color: #202020;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 21px;
+}
 
 //</Main block>==============================================================================================
 

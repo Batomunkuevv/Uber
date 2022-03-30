@@ -1,0 +1,42 @@
+.header {
+	height: 50px;
+	background: #212121;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+
+	&__container {}
+
+	&__menu {}
+
+	&__burger {
+		display: none;
+	}
+}
+
+.menu {
+	&__list {
+		display: flex;
+		margin: 0;
+		list-style: none;
+		justify-content: space-between;
+		padding: 10px 70px;
+	}
+
+	&__item {
+		&:not(:last-child) {
+			border-right: 2px dotted #000;
+			padding-right: 22px;
+		}
+	}
+
+	&__link {
+		padding: 3px;
+		display: block;
+		font-size: 15px;
+		font-weight: 300;
+		color: #fff;
+		line-height: 150%;
+	}
+}

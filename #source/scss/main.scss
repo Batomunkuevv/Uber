@@ -91,6 +91,15 @@ body {
 	text-transform: uppercase;
 }
 
+.title {
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 126%;
+	text-transform: uppercase;
+	color: #222222;
+	text-align: center;
+}
+
 
 //</Zeroing and Common Parameters>===========================================================================
 
@@ -197,71 +206,72 @@ body {
 //</Mainscreen>==============================================================================================
 
 //<Reason>=================================================================================================
+.reasons {
+	padding: 20px 0px 41px 0px;
 
-// .reasons {
-// 	padding: 71px 0 65px 0;
-// }
+	&__container {}
 
-// .label {
-// 	margin: 0 auto;
-// 	height: 24px;
-// 	width: 112px;
-// 	padding: 5px 12px;
-// 	background-color: #000000;
-// 	color: #ffffff;
-// 	font-size: 11px;
-// 	font-weight: 300;
-// 	text-transform: uppercase;
-// }
+	&__label {
+		margin: 0 auto 33px auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: 400;
+		font-size: 11px;
+		line-height: 100%;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		background: #000;
+		height: 24px;
+		width: 112px;
+	}
 
-// .title {
-// 	margin-bottom: 0;
-// 	margin-top: 38px;
-// 	color: #222222;
-// 	font-size: 38px;
-// 	font-weight: 700;
-// 	text-transform: uppercase;
-// 	text-align: center;
-// }
+	&__title {
+		margin: 0px 0px 16px 0px;
+	}
 
-// .reasons .reasons_block {
-// 	display: flex;
-// 	justify-content: center;
-// 	align-items: center;
-// 	margin-top: 35px;
-// }
+	&__row {}
 
-// .reasons .reasons_block .reasons_round {
-// 	display: flex;
-// 	justify-content: center;
-// 	align-items: center;
-// 	margin-right: 26px;
-// 	width: 113px;
-// 	height: 113px;
-// 	background-color: #1eacc7;
-// 	border-radius: 100%;
-// }
+	&__column {}
 
-// .reasons .reasons_block .reasons_descr {
-// 	width: 343px;
-// }
+	&__item {
+		display: flex;
+		margin: 0px 0px 26px 0px;
+	}
+}
 
-// .reasons .reasons_block .reasons_descr .reasons_subtitle {
-// 	line-height: 21px;
-// 	color: #1eacc7;
-// 	font-size: 17px;
-// 	font-weight: 400;
-// }
+.item-reasons {
 
-// .reasons .reasons_block .reasons_descr .reasons_text {
-// 	color: #202020;
-// 	font-size: 15px;
-// 	font-weight: 300;
-// 	line-height: 21px;
-// }
+	&__icon {
+		width: 116px;
+		height: 116px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: #1EACC7;
+		border-radius: 100%;
+		margin: 0px 24px 0px 0px;
 
+		& img {
+			max-width: 100%;
+		}
+	}
 
+	&__content {
+		width: 343px;
+	}
 
+	&__title {
+		font-weight: 400;
+		font-size: 17px;
+		line-height: 123%;
+		color: #1EACC7;
+		margin: 0px 0px 10px 0px;
+
+	}
+
+	&__text {}
+}
 
 //</Reason>=================================================================================================
 

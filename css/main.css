@@ -153,6 +153,7 @@ body {
    background: #000;
    height: 24px;
    width: 112px;
+   border-radius: 5px;
 }
 .header-block__label_white {
    background: #fff;

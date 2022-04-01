@@ -143,6 +143,7 @@ body {
 		background: #000;
 		height: 24px;
 		width: 112px;
+		border-radius: 5px;
 
 		&_white {
 			background: #fff;
@@ -578,7 +579,7 @@ body {
 			left: 0;
 			width: 20px;
 			height: 20px;
-			background: url('/img/Conditions/icons/Yes.png') 0 0 / cover no-repeat;
+			background: url('../img/Conditions/icons/Yes.png') 0 0 / cover no-repeat;
 		}
 
 		&:not(:last-child) {
@@ -594,7 +595,7 @@ body {
 				left: 0;
 				width: 21px;
 				height: 20px;
-				background: url('/img/Conditions/icons/No.png') 0 0 / cover no-repeat;
+				background: url('../img/Conditions/icons/No.png') 0 0 / cover no-repeat;
 			}
 		}
 	}

@@ -196,7 +196,7 @@ body {
    width: 100%;
    height: 50px;
    background-color: #212121;
-   z-index: 2;
+   z-index: 5;
 }
 
 .menu__list {
@@ -603,7 +603,7 @@ body {
    left: 0;
    width: 20px;
    height: 20px;
-   background: url("/img/Conditions/icons/Yes.png") 0 0/cover no-repeat;
+   background: url("../img/Conditions/icons/Yes.png") 0 0/cover no-repeat;
 }
 .item-conditions__item:not(:last-child) {
    margin: 0px 0px 5px 0px;
@@ -615,7 +615,7 @@ body {
    left: 0;
    width: 21px;
    height: 20px;
-   background: url("/img/Conditions/icons/No.png") 0 0/cover no-repeat;
+   background: url("../img/Conditions/icons/No.png") 0 0/cover no-repeat;
 }
 .aroundtheworld {
    padding: 46px 0px 16px 0px;

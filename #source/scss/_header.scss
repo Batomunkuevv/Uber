@@ -20,6 +20,8 @@
 	&__item {
 		position: relative;
 
+
+
 		&:not(:last-child) {
 			padding-right: 45px;
 		}
@@ -35,13 +37,16 @@
 	}
 
 	&__link {
+		display: block;
 		color: #ffffff;
 		font-size: 15px;
 		font-weight: 300;
-		padding: 5px;
+		transition: all 0.3s ease 0s;
 
 		&:hover {
 			text-decoration: underline;
+			transform: scale(1.125);
+			transition: all 0.3s ease 0s;
 		}
 	}
 }

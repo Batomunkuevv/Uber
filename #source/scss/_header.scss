@@ -77,6 +77,11 @@
 				left: 0;
 			}
 		}
+
+		@media(max-width:575px) {
+			width: 60%;
+			padding: 0px 0px 0px 30px;
+		}
 	}
 
 	&__item {

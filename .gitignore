@@ -1,3 +1,6 @@
 prepros.config
+
 /#source
 /.vscode
+
+*.json
